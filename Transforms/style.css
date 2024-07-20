@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100svh;
+    width: 100%;
+    perspective: 40px;
+}
+.mydiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 400px;
+    background-color: antiquewhite;
+    font-size: 32px;
+    /* transform: rotate(90deg); */
+    /* transform: rotateX(30deg); */
+    /* transform: rotateY(30deg); */
+    /* transform: skew(20deg); */
+    /* transform: skewX(10deg); */
+    /* transform: skewY(10deg); */
+    /* transform: translate(100px); */
+    /* transform: translateY(100px ); */
+    /* transform: rotateX(1deg); */
+    /* transform: rotateY(2deg); */
+}

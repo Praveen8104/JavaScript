@@ -1,0 +1,63 @@
+body {
+    width: 100%;
+    height: 100svh;
+    background-image: url("https://media.istockphoto.com/id/1035676256/photo/background-of-galaxy-and-stars.jpg?s=612x612&w=0&k=20&c=dh7eWJ6ovqnQZ9QwQQlq2wxqmAR7mgRlQTgaIylgBwc=");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.earth {
+    height: 140px;
+    width: 140px;
+    border-radius: 100%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf3OOvkum5pQOyypwod4OKqDDCSNs1FRBBKw&s");
+    background-size: 100% 100%;
+    position: fixed;
+}
+
+.parent {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    border-radius: 100%;
+    animation-name: my_animation;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.moon {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-image: url("https://www.universetoday.com/wp-content/uploads/2010/02/Full-Moon.jpg");
+    background-size: 100% 100%;
+    position: absolute;
+    animation-name: my_moon;
+    animation-timing-function: linear;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes my_animation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes my_moon {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
