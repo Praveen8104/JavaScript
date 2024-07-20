@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" /> -->
+    <link rel="stylesheet" href="../../slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <h1 class = "text">Kalki</h1>
+    <div class="parent">
+        <div class="child">
+            <div class="inner_child"><img
+                    src="https://media.assettype.com/outlookindia/2024-06/afc04f1f-09dd-4ea7-a057-2a2e6d5ee4e0/prabhas_in_kalki_2898_AD.jpeg?w=801&auto=format%2Ccompress&fit=max&format=webp&dpr=1.0">
+            </div>
+        </div>
+        <div class="child">
+            <div class="inner_child"><img
+                    src="https://www.livemint.com/lm-img/img/2024/06/28/600x338/Kalki-2898-AD_box_office_collection_day_1_prabhas_1719548189918_1719574247509.jpg"
+                    alt=""></div>
+        </div>
+        <div class="child">
+            <div class="inner_child"><img
+                    src="https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/medium/kalki-2898-ad-et00352941-1718275859.jpg"
+                    alt=""></div>
+        </div>
+        <div class="child">
+            <div class="inner_child"><img src="https://i.ytimg.com/vi/bC36d8e3bb0/maxresdefault.jpg" alt=""></div>
+        </div>
+        <div class="child">
+            <div class="inner_child"><img
+                    src="https://media.assettype.com/outlookindia/2024-06/afc04f1f-09dd-4ea7-a057-2a2e6d5ee4e0/prabhas_in_kalki_2898_AD.jpeg?w=801&auto=format%2Ccompress&fit=max&format=webp&dpr=1.0"
+                    alt=""></div>
+        </div>
+        <div class="child">
+            <div class="inner_child"><img src="https://www.m9.news/wp-content/uploads/2024/06/kalki-hindi-trailer.jpg"
+                    alt=""></div>
+        </div>
+    </div>
+    <!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script> -->
+    <!-- <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+    <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
+    <script src="../../jquery.min.js"></script>
+    <script src="../../slick-1.8.1/slick/slick.min.js"></script>
+    <script>
+        $('.parent').slick({
+            centerMode: true,
+            centerPadding: '60px',
+            slidesToShow: 2,
+            dots: true,
+            prevArrow: `<button class="slick-prev"><i class="fa-solid fa-arrow-left"></i></button>`,
+            nextArrow: `<button class="slick-next"><i class="fa-solid fa-arrow-right"></i></button>`,
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
+    </script>
+</body>
+
+</html>

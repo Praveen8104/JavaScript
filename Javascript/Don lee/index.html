@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Student DataBase</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+	<div id="btn_div">
+		<button id="add_btn" onclick="fun()">Show Data</button>
+	</div>
+	<div id="table_div">
+		<center>
+			<table id="table_tag">
+				<tr>
+					<th>Name</th>
+					<th>Year</th>
+					<th>Location1</th>
+					<th>Location2</th>
+					<th>Edit</th>
+					<th>Delete</th>
+				</tr>
+				<tr>
+					<td>Kalki</td>
+					<td>2898</td>
+					<td>Shambala</td>
+					<td>Complex</td>
+					<td><button onclick="Update_html_Data(event)" id="html_update">Edit</button></td>
+					<td><button onclick="Delete_html_Row(event)" id="html_delete">Delete</button></td>
+				</tr>
+			</table>
+		</center>
+	</div>
+	<script src="./script.js"></script>
+</body>
+</html>
